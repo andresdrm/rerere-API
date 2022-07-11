@@ -85,7 +85,7 @@ exports.loginUser = async (req, res) => {
       res.status(401).send("Invalid credentials");
       return;
     }
-
+    console.log("el user es:", user);
     const token = jwt.sign(
       { userEmail: user[0].email },
       process.env.JWT_KEY,
@@ -93,7 +93,7 @@ exports.loginUser = async (req, res) => {
         expiresIn: "7d",
       }
     );
-
+      console.log("el token es: ", token);
     const result = {
       email: user[0].email,
       name: user[0].name,
@@ -103,9 +103,10 @@ exports.loginUser = async (req, res) => {
       token
     }
  
-  
+    console.log("result es", result);
    res.status(200).send(result);
   } catch (error) {
+    console.log("error es", error);
     res.status(500).send("Server error: " + error);
   }
 };
