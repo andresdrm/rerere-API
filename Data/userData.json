@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "Pedro Perez", "usuario": "pedrinho", "email":"ldiego.esquivel1001@gmail.com" , "contrasena": "$2b$10$.wWSsS8lXONwLAWJfXjIkOud.ZnZ6kGAAU.vWHB1U0KY8zckCd.z.", "phone": 85858585, "picture": "https://ci0137.s3.amazonaws.com/rerere/users/senorasonriente.jpg"},
+    {"id": 2, "name": "Maria Martinez", "usuario": "maria_m", "email":"lotazi@mailo.icu" , "contrasena": "$2b$10$.wWSsS8lXONwLAWJfXjIkOud.ZnZ6kGAAU.vWHB1U0KY8zckCd.z.","phone": 85858586, "picture": "https://ci0137.s3.amazonaws.com/rerere/users/senorasonriente.jpg" },
+    {"id": 3, "name": "Ángel Artavial A", "usuario":"angelartaa_m", "email":"zakary.crona41@ethereal.email" , "contrasena": "$2b$10$.wWSsS8lXONwLAWJfXjIkOud.ZnZ6kGAAU.vWHB1U0KY8zckCd.z.", "phone": 85858587, "picture": "https://ci0137.s3.amazonaws.com/rerere/users/senorasonriente.jpg"}
+]

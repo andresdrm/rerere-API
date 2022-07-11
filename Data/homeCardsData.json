@@ -1,0 +1,34 @@
+[
+    {
+      "key": "1",
+      "img": "",
+      "name": "Botellas eco",
+      "description": "Esta es la mejor botella ecológica",
+      "category": "Comida",
+      "qty": 4
+    },
+    {
+      "key": "2",
+      "img": "",
+      "name": "Shampoo",
+      "description": "Esto es un shampoo a base de eucalipto",
+      "category": "Baño",
+      "qty": 4
+    },
+    {
+      "key": "3",
+      "img": "",
+      "name": "Botella talme 600ml",
+      "description": "Esta es una botella de 600ml",
+      "category": "Comida",
+      "qty": 4
+    },
+    {
+      "key": "4",
+      "img": "",
+      "name": "Rosas",
+      "description": "Estas plantas aromatizan el ambiente",
+      "category": "Plantas",
+      "qty": 4
+    }
+]

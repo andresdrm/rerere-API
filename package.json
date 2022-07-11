@@ -1,0 +1,36 @@
+{
+  "name": "api-rerere",
+  "version": "1.0.0",
+  "description": "Api ReReRe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "backend",
+    "test",
+    "rerere"
+  ],
+  "author": "Luis Diego Esquivel, Andrés David Ramírez",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1152.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5",
+    "sequelize": "^6.20.1",
+    "swagger-autogen": "^2.21.3",
+    "swagger-ui-express": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
