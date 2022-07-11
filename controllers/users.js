@@ -75,8 +75,9 @@ exports.editUser = async (req, res) => {
 };
 
 exports.loginUser = async (req, res) => {
- 
+ console.log(req.body);
   try {
+
     const userPayload = req.body;
     let array = data;
     const user = array.filter(e => e.email == userPayload.email);

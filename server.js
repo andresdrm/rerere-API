@@ -85,7 +85,7 @@ server.post("/uploadUser", uploadUser.single("file"),function (req, res) {
 });
 
 server.listen(process.env.PORT || 7500);
-console.log(
-  `The server is running at http://localhost:${process.env.PORT || 7500}
-   You can find the docs at http://localhost:${process.env.PORT || 7500}/docs`
-);
+// console.log(
+//   `The server is running at http://localhost:${process.env.PORT || 7500}
+//    You can find the docs at http://localhost:${process.env.PORT || 7500}/docs`
+// );

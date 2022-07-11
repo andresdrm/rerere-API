@@ -5,7 +5,7 @@
     "description": "Este es el API del laboratorio de backend para la aplicación Rerere",
     "version": "0.0.1"
   },
-  "host": "localhost:7500",
+  "host": "https://rerere-prueba.herokuapp.com/",
   "basePath": "/",
   "schemes": [
     "http",
@@ -527,19 +527,19 @@
       "properties": {
         "name": {
           "type": "string",
-          "example": "CI0137"
+          "example": "Cristiano"
         },
         "email": {
           "type": "string",
-          "example": "cloud@polpocr.com"
+          "example": "goatCristiano@gmail.com"
         },
         "password": {
           "type": "string",
-          "example": "patito"
+          "example": "asdf1234"
         },
         "phone": {
           "type": "number",
-          "example": 70155104
+          "example": 20806545
         },
         "picture": {
           "type": "string",
@@ -556,7 +556,7 @@
         },
         "company": {
           "type": "string",
-          "example": "Ambientador"
+          "example": "Ecolores"
         },
         "amount": {
           "type": "number",

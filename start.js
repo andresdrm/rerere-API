@@ -2,20 +2,19 @@ const swaggerAutogen = require("swagger-autogen")();
 
 const doc = {
   info: {
-    title: "Lab CI0137 - API",
+    title: "ReReRe",
     description:
-      "Este es el API del laboratorio de backend del curso de CI0137",
+      "Este es el API de ReReRe",
   },
   host: "localhost:7500",
   schemes: ["http", "https"],
   definitions: {
     AddUser: {
-      name: "CI0137",
-      email: "cloud@polpocr.com",
-      password: "patito",
-      phoneCountryCode: 506,
-      phone: 70155104,
-      birthdate: "1989-10-16",
+      name: "Cristiano",
+      email: "goatCristiano@gmail.com",
+      password: "asdf1234",
+      phone: 20806545,
+      picture: "https://ci0137.s3.amazonaws.com/rerere/users/senorasonriente.jpg"
     },
     AddProduct: {
       name: "Nombre del producto",
